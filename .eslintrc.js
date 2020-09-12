@@ -13,6 +13,7 @@ module.exports = {
     "eslint:recommended",
     "airbnb-typescript",
     "eslint:recommended",
+    "plugin:react-hooks/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
   ],
@@ -27,12 +28,9 @@ module.exports = {
     "import/resolver": {
       typescript: {},
       node: {
-        extensions: ['.js', '.ts', '.tsx'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
       }
     },
-    "react": {
-      "version": "999.999.999",
-    }
   },
   rules: {
     indent: ["error", 2],
